@@ -21,22 +21,6 @@
                 font-size: 1rem;
             }
         }
-
-        .mintButton {
-            background: #000000;
-            border-radius: 15px;
-            color: #fff;
-            font-size: 36px;
-            padding: 22px 40px;
-            width: auto;
-            font-weight: 700;
-            font-family: 'Times New Roman';
-            line-height: 1;
-            
-            &:hover {
-                background-color: rgba(0,0,0, .75);
-            }
-        }
     }
 
     .description {

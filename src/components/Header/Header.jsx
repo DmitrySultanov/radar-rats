@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, List, BA } from 'bootstrap-4-react';
 import styles from './Header.module.css';
 import classNames from 'classnames';
-import presskit from '../../media/Banksy_LCDLAB_PRESSKIT.pdf';
+import presskit from '../../media/Banksy_LCDLAB_08_26.pdf';
 
 const Header = () => {
     return (

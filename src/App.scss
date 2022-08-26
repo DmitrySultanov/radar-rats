@@ -217,3 +217,44 @@ section {
     box-shadow: none;
   }
 }
+
+.btn-primary {
+  background: #000000;
+  border-color: #000000;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 36px;
+  padding: 22px 40px;
+  width: auto;
+  font-weight: 700;
+  font-family: 'Times New Roman';
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  &:not(:disabled):not(.disabled).active, 
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled):active:focus,
+  &:focus,
+  &:active,
+  &:hover {
+    background: rgba(0,0,0, .75);
+    box-shadow: none;
+    outline: none;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 30px;
+    padding: 20px 40px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 26px;
+    padding: 15px 30px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}

@@ -18,7 +18,7 @@ const SectionIntro = () => {
                             </div>
                             <Row>
                                 <Col col="auto">
-                                    <Button data-aos="fade-up" data-aos-duration="600" data-aos-delay="600" as="a" href="https://kvr7g2jihv3.typeform.com/to/to1d9wLu" target="_blank" rel="noopener noreferrer" className={styles.mintButton}>Whitelist raffle</Button>
+                                    <Button data-aos="fade-up" data-aos-duration="600" data-aos-delay="600" as="a" href="https://kvr7g2jihv3.typeform.com/to/to1d9wLu" target="_blank" rel="noopener noreferrer" className="btn-primary">Whitelist raffle</Button>
                                     <p className='mt-2' data-aos="fade-up"data-aos-duration="600" data-aos-delay="1000">*to raise your chance - subscribe to our discord and twitter</p>
                                 </Col>
                             </Row>
