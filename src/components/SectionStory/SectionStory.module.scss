@@ -1,0 +1,68 @@
+.SectionStory {
+
+    .content {
+        text-align: center;
+    }
+
+    .pictures {
+        margin-top: 100px;
+
+        .arrows {
+            margin-top: 70px;
+
+            img {
+                margin: 30px 0;
+            }
+        }
+
+        .text {
+            margin-top: 100px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .pictures {
+            .arrows {
+                img {
+                    margin: 15px 0;
+                    max-width: 100px;
+                }
+            }
+
+            .text {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .pictures {
+            margin-top: 50px;
+            
+            .arrows {
+                img {
+                    max-width: 70px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        .pictures {
+            margin-top: 30px;
+            
+            .arrows {
+                margin-top: 35px;
+                img {
+                    margin: 5px 0;
+                    max-width: 100%;
+                }
+            }
+
+            .text {
+                margin-top: 30px;
+            }
+        }
+    }
+}

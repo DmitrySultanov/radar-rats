@@ -1,0 +1,42 @@
+.SectionPhysicalArt {
+    .description {
+        margin-top: 100px;
+
+        >div {
+            margin-bottom: 25px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .description {
+            margin-top: 50px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .description {
+            margin-top: 0;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .description {
+            >div {
+                margin-bottom: 15px;
+            }
+        }
+
+        .picture {
+            margin-left: -15px;
+            max-width: calc(100% + 15px);
+        }
+    }
+}

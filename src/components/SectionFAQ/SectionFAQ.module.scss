@@ -1,0 +1,111 @@
+.SectionFAQ {
+	z-index: 22;
+	position: relative;
+}
+
+$pink: #FC4CB5;
+$dark: #fff;
+$grey: #9A9A9A;
+
+.accordion {
+	margin-top: -50px;
+	
+	.acc_section {
+		border: none;
+        background: transparent;
+        transition: .2s;
+		margin-top: -1px;
+
+		.acc_head {
+			background-color: transparent;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 44px;
+			padding: 50px 25px 25px 25px;
+			position: relative;
+            color: #000;
+            text-align: left;
+            outline: none;
+            box-shadow: none;
+			white-space: initial;
+
+			// .btn {
+			// 	content: '';
+			// 	width: 76px;
+			// 	height: 76px;
+			// 	border-radius: 50%;
+			// 	display: inline-flex;
+			// 	justify-content: center;
+			// 	align-items: center;
+			// 	color: $dark;
+			// 	background-color: transparent;
+			// 	position: absolute;
+			// 	top: 50%;
+            //     margin-top: -38px;
+			// 	right: 0;
+			// 	font-size: 2rem;
+			// 	// background-image: url('../../img/plus.svg');
+			// 	// background-size: 20px 20px;
+			// 	background-position: center;
+			// 	background-repeat: no-repeat;
+			// }
+
+            // &[aria-expanded="true"] {
+			// 	border-radius: 8px 8px 0 0;
+
+            //     .btn {
+            //         // background-image: url('../../img/minus.svg');
+            //     }
+            // }
+		}
+
+		.acc_content {
+			color: #000;
+
+			>div {
+				padding: 25px 25px;
+			}
+
+			p {
+				line-height: 1.4;
+				font-size: 1rem;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 1200px) {
+		.acc_section {
+			.acc_head {
+				font-size: 26px;
+				padding: 35px 25px 20px 25px;
+				line-height: 40px;
+			}
+			.acc_content {
+				>div {
+					padding: 15px 25px 25px;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.acc_section {
+			.acc_head {
+				font-size: 16px;
+				line-height: 22px;
+				padding: 20px 0 10px 0;
+			}
+			.acc_content {
+				>div {
+					padding: 0 0 10px;
+				}
+			}
+		}
+	}
+}
